@@ -3,97 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>كشف أسماء فصل 1/3</title>
+    <title>كشف أسماء فصل 1/3 🔴🔵</title>
     <style>
-        body {background: #0f172a; color: #e2e8f0; font-family: 'Cairo', Tahoma, sans-serif; padding: 15px; line-height: 1.6;}
-        h1 {text-align: center; color: #facc15; margin-bottom: 10px;}
-    .subtitle {text-align: center; color: #38bdf8; margin-bottom: 20px;}
-        #search {width: 100%; padding: 12px; border: 2px solid #334155; background: #1e293b; color: white; border-radius: 10px; margin-bottom: 20px; font-size: 16px;}
-        table {width: 100%; border-collapse: collapse; background: #1e293b; border-radius: 10px; overflow: hidden;}
-        th, td {padding: 12px 8px; text-align: center; border-bottom: 1px solid #334155;}
-        th {background: #ef4444; color: white; font-size: 18px;}
-        tr:hover {background: #334155;}
-    .back {display: block; text-align: center; margin: 20px auto; background: #38bdf8; color: #0f172a; padding: 12px 25px; border-radius: 10px; text-decoration: none; font-weight: bold; width: 200px;}
-    .stats {display: flex; justify-content: space-around; background: #1e293b; padding: 15px; border-radius: 10px; margin: 20px 0; text-align: center;}
-    .stat-box b {color: #facc15; font-size: 24px; display: block;}
-    </style>
-</head>
-<body>
-    <h1>🔴🔵 كشف أسماء طلاب 1/3</h1>
-    <p class="subtitle">مدرسة الإخصاص الثانوية المشتركة - 2025/2026</p>
-    <div class="stats">
-        <div class="stat-box"><b>14</b> بنين</div>
-        <div class="stat-box"><b>29</b> بنات</div>
-        <div class="stat-box"><b>43</b> الإجمالي</div>
-    </div>
-    <input type="text" id="search" onkeyup="searchNames()" placeholder="ابحث عن اسمك هنا...">
-    <table id="studentsTable">
-        <thead><tr><th>م</th><th>الاسم</th></tr></thead>
-        <tbody>
-            <tr><td>1</td><td>بلال أحمد سعيد عبد الكريم درويش</td></tr>
-            <tr><td>2</td><td>بلال ياسر جلال المهامى أحمد جلال المولى</td></tr>
-            <tr><td>3</td><td>جورج مجدى اسحاق توفيق زكى</td></tr>
-            <tr><td>4</td><td>حسين حسنى سيد عثمان</td></tr>
-            <tr><td>5</td><td>حسين أسومى عبده عبد المنعم دسوقى</td></tr>
-            <tr><td>6</td><td>خالد وليد فهمى باهى الريدى</td></tr>
-            <tr><td>7</td><td>زياد سعيد بس عاشور سيد</td></tr>
-            <tr><td>8</td><td>زياد محمد محمد حسنين محمد</td></tr>
-            <tr><td>9</td><td>سيد أيمن سيد عبد الله بشير</td></tr>
-            <tr><td>10</td><td>سيف عبد الستار سيد عبد المطلب</td></tr>
-            <tr><td>11</td><td>صلاح محمد صلاح محمود فيصل</td></tr>
-            <tr><td>12</td><td>عبد الرحمن أحمد فاروق عبد النبى سيد</td></tr>
-            <tr><td>13</td><td>عبد الرحمن حسنين ربيع حسنين</td></tr>
-            <tr><td>14</td><td>عبد الرحمن حمدى جاب الله أبو طالب</td></tr>
-            <tr><td>15</td><td>دعاء رضا عبد المنعم عبد سيد</td></tr>
-            <tr><td>16</td><td>دماء نظير سيد محمد</td></tr>
-            <tr><td>17</td><td>دينا جرجس نجيب فرج الله ابو السعد</td></tr>
-            <tr><td>18</td><td>رحمه أشرف أحمد محمد سليمان</td></tr>
-            <tr><td>19</td><td>رحمه رضا عبد العزيز محمد سليمان</td></tr>
-            <tr><td>20</td><td>رحمه شعبان كمال عبد العزيز مرسى</td></tr>
-            <tr><td>21</td><td>رحمه على عربى عبد السميع محمد القاضى</td></tr>
-            <tr><td>22</td><td>رحمه محمد حريش محمد حسن</td></tr>
-            <tr><td>23</td><td>رحمه محمد رفى رجب</td></tr>
-            <tr><td>24</td><td>رحمه محمود فتحى قنى محمد</td></tr>
-            <tr><td>25</td><td>رضوى أحمد محمد النوبى حبى</td></tr>
-            <tr><td>26</td><td>رضوى جمال جمعه عبد التواب على</td></tr>
-            <tr><td>27</td><td>رغده ريحان عبد السلام عبد المقصود</td></tr>
-            <tr><td>28</td><td>رقية رضا عوض محمود</td></tr>
-            <tr><td>29</td><td>رميساء محمد رياض جمالين محمد</td></tr>
-            <tr><td>30</td><td>رنا كمال سعد الدين محمد حلمى</td></tr>
-            <tr><td>31</td><td>روان أحمد صدوقى عبد الغفار خليفه</td></tr>
-            <tr><td>32</td><td>روان أحمد رضا منصور</td></tr>
-            <tr><td>33</td><td>روان حسن حسين كامل فليل</td></tr>
-            <tr><td>34</td><td>رودينا شوقى عبده عبد المنعم</td></tr>
-            <tr><td>35</td><td>روضه أحمد دسوقى عبد الغفار خليفة</td></tr>
-            <tr><td>36</td><td>روضه حسين عبد الواحد عبد الحميد ابراهيم</td></tr>
-            <tr><td>37</td><td>روضه عبد اسماعيل أحمد بدوى</td></tr>
-            <tr><td>38</td><td>روضه نزيه فرحات على عبد المجيد</td></tr>
-            <tr><td>39</td><td>روى طاهر سمير سعيد عبد العزيز</td></tr>
-            <tr><td>40</td><td>رؤى محمود عبد العزيز عبد النبى</td></tr>
-            <tr><td>41</td><td>ريم احمد صبرى بسيونى عبد العزيز</td></tr>
-            <tr><td>42</td><td>ريم عربى عدوى حسين حسين</td></tr>
-            <tr><td>43</td><td>ريماس احمد ابراهيم توفيق محمد</td></tr>
-        </tbody>
-    </table>
-    <a href="index.html" class="back">🔙 رجوع للصفحة الرئيسية</a>
-    <script>
-        function searchNames() {
-            let input = document.getElementById('search');
-            let filter = input.value.toUpperCase();
-            let table = document.getElementById('studentsTable');
-            let tr = table.getElementsByTagName('tr');
-            for (let i = 1; i < tr.length; i++) {
-                let td = tr[i].getElementsByTagName('td')[1];
-                if (td) {
-                    let txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        tr[i].style.display = "";
-                    } else {
-                        tr[i].style.display = "none";
-                    }
-                }
-            }
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
         }
-    </script>
-</body>
-</html>
+      .header {
+            background: linear-gradient(45deg, #dc2626, #2563eb);
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 25px rgba(220,38,38,0.4);
+        }
+      .header h1 { margin: 0; font-size: 28px; }
+      .header p { margin: 5px 0 0 0; color: #facc15; }
+        #search {
+            width: 90%;
+            max-width: 400px;
+            padding: 12px;
+            border-radius: 25px;
+            border: 2px solid #38bdf8;
+            background: #1e293b;
+            color: white;
+            font-size: 16px;
+            margin: 15px 0;
+            text-align: center;
+            outline: none;
+        }
+        #search:focus { box-shadow: 0 0 15px rgba(56,189,248,0.6); }
+      .filter-btns {
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+      .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #38bdf8;
+            background: #1e293b;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+      .filter-btn:hover,
